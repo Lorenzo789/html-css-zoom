@@ -10,14 +10,10 @@ body{
 
 /* header */
 header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 10vh;
     background-color: black;
     padding: 3px;
-    z-index: 1;
 }
 
 .flex{
@@ -43,12 +39,12 @@ header{
 main{
     margin: 0 auto;
     height: 80vh;
+    overflow: auto;
 }
 
 .reunion.flex{
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 60px;
 }
 
 .card{
@@ -68,3 +64,66 @@ main{
 /* main */
 
 /* footer */
+footer{
+    background-color: rgb(34,34,34);
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.option-footer{
+    justify-content: space-between;
+}
+
+.content-footer{
+    color: white;
+}
+
+.icon{
+    padding: 5px;
+    font-size: 25px;  
+}
+
+.icon.middle{
+    padding: 10px 25px;
+}
+
+.icon.middle.big{
+    padding: 10px 40px;
+}
+
+.angle{
+    font-size: 10px;
+    padding: 10px;
+}
+
+.text-icon{
+    font-size: 14px;
+}
+
+.text-icon.middle{
+    padding: 10px 16px;
+}
+
+#center{
+    margin-left: 20px;
+}
+
+#green{
+    color: limegreen;
+}
+
+#cells{
+   padding: 10px 50px; 
+}
+
+#chat{
+    padding: 0px 35px;
+}
+
+.btn-footer{
+    color: red;
+    background-color: rgb(74,74,74);
+    border-color: rgb(74,74,74);
+    padding: 20px;
+}
